@@ -15,16 +15,21 @@ body{
     display: flex;
     align-items: center;
     background-color: blanchedalmond;
+    padding: 0 50px;
+    height: 100%;
 }
 .logo-container{
     flex: 1;
+    background-color: brown;
 }
 
 .menu-container{
-    flex: 1;
+    flex: 6;
+    background-color: aqua;
 }
 .profile-container{
-    flex: 1;
+    flex: 2;
+    background-color: palevioletred;
 }
 .sidebar {
     width: 50px;
